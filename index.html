@@ -16,7 +16,25 @@
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item-separate">Vào cửa hàng</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">
+                            Tải ứng dụng từ nền tảng khác
+
+                            <!-- Header QR Code -->
+                            <div class="header_qr">
+                                <img src="./assets/img/app_down_img/qr.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_down_img/ggplay.png" alt="App Stores" class="header__qr-dowload-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_down_img/appstore.png" alt="GG Plays" class="header__qr-dowload-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_down_img/appgallery.png" alt="App Gallery" class="header__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-title-no-pointer">Kết nối</span>
                             <a href="https://www.facebook.com/Kejpp1608/" class="header__navbar-icon-link">
@@ -29,11 +47,64 @@
                     </ul>
     
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
                                 <i class="header__navbar-icon fa-solid fa-bell"></i>
                                 Thông báo
                             </a>
+
+                            <!-- Notification -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/products/product2.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Bông tẩy trang MEERY chính hãng 205</span>
+                                                <span class="header__notify-description">Bông tẩy trang MEERY được làm từ chất liệu 100% cotton, miếng bông tròn mềm mịn</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/products/product1.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Sữa Rửa Mặt Cerave Làm Sạch Sâu Cho Da</span>
+                                                <span class="header__notify-description">Sữa Rửa Mặt Cerave Sạch Sâu là sản phẩm sữa rửa mặt đến từ thương hiệu mỹ phẩm Cerave của Mỹ</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="./assets/img/products/product3.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kem rửa mặt Hada Labo sạch sâu dưỡng ẩm 80g Hasaki</span>
+                                                <span class="header__notify-description">ới kết cấu dạng kem tạo bọt mịn, nhẹ nhàng len lỏi sâu vào lỗ chân lông để loại bỏ bụi bẩn & bã nhờn</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="./assets/img/products/product4.webp" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Tăm Chỉ Nha Khoa Nhật Bản Tấm Thị Chính Hãng Hộp 50 Chiếc</span>
+                                                <span class="header__notify-description">Loại bỏ sạch mảng bám, thức ăn thừa còn sót lại nằm sâu trong kẽ răng.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <div class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </div>
+                            </div>
+
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">
@@ -41,7 +112,9 @@
                                 Trợ giúp
                             </a>
                         </li>
-                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item-separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item-separate">
+                            <a class="header__navbar-icon-link" href="./signUp.html">Đăng ký</a>
+                        </li>
                         <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
     
                     </ul>
